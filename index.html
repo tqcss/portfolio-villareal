@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="src/styles/icon.css">
   <title>@meiro.villareal</title>
 </head>
-<body class="bg-white">
+<body class="bg-white" id="about">
   <header class="flex sticky top-4 mt-4 mx-4 sm:mx-20 md:mx-30 lg:mx-50 xl:mx-70 py-4 px-6 justify-between items-center bg-white/50 backdrop-blur-2xl shadow-slate-800/20 shadow-md rounded-full z-50">
     <h3 class="text-slate-800 text-md font-semibold cursor-default">@meiro.villareal</h3>
     <nav class="flex gap-5 text-sm font-medium text-slate-600">
@@ -25,7 +25,7 @@
   </header>
 
   <main class="mx-12 sm:mx-20 md:mx-30 lg:mx-50 xl:mx-70">
-    <section id="about" class="flex flex-col items-center lg:flex-row lg:items-end justify-center  my-20 gap-10">
+    <section class="flex flex-col items-center lg:flex-row lg:items-end justify-center my-20 gap-10">
       <img src="src/assets/profile.png" alt="profile picture" class="w-xs aspect-square rounded-full shadow-slate-400 shadow-lg" draggable="false">
       <article>
         <h1 class="text-2xl font-semibold text-slate-800">Hi there!👋</h1>
@@ -89,17 +89,62 @@
     </section>
     <div class="h-[1px] bg-slate-300"></div>
     <section class="my-20" id="projects">
-      <h3 class="text-center text-xl font-semibold text-slate-800">My Past Projects</h3>
-      <div class="flex flex-row-reverse gap-4">
-        <div class="w-1 h-full rounded-full bg-slate-300">
-          <!-- <div class="w-full h-10 rounded-full bg-sky-600"></div> -->
+      <h3 class="text-center text-2xl font-semibold text-slate-800">My Portfolio-Worthy Projects</h3>
+      <div class="flex flex-row-reverse gap-8 mt-12">
+        <div class="sticky w-1 h-[calc(100svh-10rem)] rounded-full bg-slate-300 top-30">
+          <div class="h-10 w-full bg-sky-600 rounded-full"></div>
         </div>
-        <article class="flex-1 mt-8">
-          <div class="aspect-square md:aspect-video w-full bg-slate-300 ">
-            <img src="" alt="rooted project">
+        <article class="flex-1 flex flex-col gap-24">
+          <div>
+            <div class="aspect-square md:aspect-video w-full rounded-lg bg-slate-300 ">
+              <img src="" alt="rooted project">
+            </div>
+            <div class="flex flex-col sm:flex-row justify-between mt-4">
+              <h3 class="text-3xl font-bold text-slate-800">Rooted</h3>
+              <ul class="flex flex-wrap gap-2">
+                <li class="aspect-square w-10 bg-slate-200 p-2 rounded-full"><img src="src/assets/unity.png" alt="Unity"></li>
+                <li class="aspect-square w-10 bg-slate-200 p-2 rounded-full"><img src="src/assets/python.png" alt="Python"></li>
+              </ul>
+            </div>
+            <p class="mt-2 text-slate-600 text-justify">
+              Placed as the 2nd Runner-up for Game On 2025's Game Development Hackathon, Rooted is an innovative turn-based combat game where players battle
+              enemies using the power of words. Combining educational vocabulary building with strategic gameplay, Rooted transforms language learning into an
+              engaging adventure through diverse biomes and challenging encounters.
+            </p>
           </div>
-          <div class="flex">
-            <h3 class="text-2xl font-bold text-slate-800">Rooted</h3>
+          <div>
+            <div class="aspect-square md:aspect-video w-full rounded-lg bg-slate-300 ">
+              <img src="" alt="resource owl project">
+            </div>
+            <div class="flex flex-col sm:flex-row justify-between mt-4">
+              <h3 class="text-3xl font-bold text-slate-800">Resource Owl</h3>
+              <ul class="flex flex-wrap gap-2">
+                <li class="aspect-square w-10 bg-slate-200 p-2 rounded-full"><img src="src/assets/react.png" alt="ReactJS"></li>
+                <li class="aspect-square w-10 bg-slate-200 p-2 rounded-full"><img src="src/assets/typescript.png" alt="TypeScript"></li>
+                <li class="aspect-square w-10 bg-slate-200 p-2 rounded-full"><img class="rounded-full" src="src/assets/electron.jpg" alt="ElectronJS"></li>
+              </ul>
+            </div>
+            <p class="mt-2 text-slate-600 text-justify">
+              A desktop application built with React, TypeScript, and Electron for real-time computer resource monitoring; providing an intuitive interface to
+              track CPU, memory, disk, and network usage.
+            </p>
+          </div>
+          <div>
+            <div class="aspect-square md:aspect-video w-full rounded-lg bg-slate-300 ">
+              <img src="" alt="rooted project">
+            </div>
+            <div class="flex flex-col sm:flex-row justify-between mt-4">
+              <h3 class="text-3xl font-bold text-slate-800">Rooted</h3>
+              <ul class="flex flex-wrap gap-2">
+                <li class="aspect-square w-10 bg-slate-200 p-2 rounded-full"><img src="src/assets/unity.png" alt="Unity"></li>
+                <li class="aspect-square w-10 bg-slate-200 p-2 rounded-full"><img src="src/assets/python.png" alt="Python"></li>
+              </ul>
+            </div>
+            <p class="mt-2 text-slate-600 text-justify">
+              Placed as the 2nd Runner-up for Game On 2025's Game Development Hackathon, Rooted is an innovative turn-based combat game where players battle
+              enemies using the power of words. Combining educational vocabulary building with strategic gameplay, Rooted transforms language learning into an
+              engaging adventure through diverse biomes and challenging encounters.
+            </p>
           </div>
         </article>
       </div>
